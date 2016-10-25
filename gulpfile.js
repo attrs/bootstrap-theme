@@ -8,7 +8,8 @@ const uglify = require('gulp-uglify');
 const rimraf = require('gulp-rimraf');
 const header = require('gulp-header');
 const less = require('gulp-less');
-const cssmin = require('gulp-cssmin');
+const cleanCSS = require('gulp-clean-css');
+const sourcemaps = require('gulp-sourcemaps');
 const pkg = require('./package.json');
 
 gulp.task('build.clean', () => {
@@ -18,6 +19,7 @@ gulp.task('build.clean', () => {
 
 gulp.task('build', ['build.clean'], () => {
   return gulp.src('less/index.less')
+    .pipe(sourcemaps.init({largeFile: true}))
     .pipe(less())
     .pipe(header([
       '/*!',
@@ -34,11 +36,11 @@ gulp.task('build', ['build.clean'], () => {
       basename: pkg.name
     }))
     .pipe(gulp.dest('dist'))
-    .pipe(cssmin())
-    .pipe(header('/*! <%= pkg.name %> - attrs */', { pkg: pkg }))
+    .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(rename({
       suffix: '.min'
     }))
+    .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('dist'));
 });
 
