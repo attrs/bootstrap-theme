@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-theme-attrs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "bootstrap-theme-attrs",
   "web": "dist/bootstrap-theme-attrs.min.css",
   "homepage": "https://github.com/attrs/bootstrap-theme-attrs",
