@@ -7,6 +7,9 @@
   "repository": "attrs/bootstrap-theme-attrs",
   "author": "joje <joje.attrs@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "prepublish": "gulp"
+  },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.13",
