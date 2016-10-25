@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-theme-attrs",
+  "version": "0.0.0",
+  "description": "bootstrap-theme-attrs",
+  "web": "dist/css/bootstrap-theme-attrs.min.css",
+  "homepage": "https://github.com/attrs/bootstrap-theme-attrs",
+  "repository": "attrs/bootstrap-theme-attrs",
+  "author": "joje <joje.attrs@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-header": "^1.8.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7"
+  },
+  "files": [
+    "package.json",
+    "less",
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
