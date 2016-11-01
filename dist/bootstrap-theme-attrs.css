@@ -7663,19 +7663,6 @@ label.switch.switch-danger > input:checked:focus + label {
   background: #e9573f;
   border-color: #e9573f;
 }
-.picture-list .empty {
-  text-align: center;
-  padding: 100px 0;
-}
-.picture-list .empty > .empty-icon {
-  font-size: 90px;
-  color: #ececec;
-}
-.picture-list .empty > .empty-text {
-  font-size: 16px;
-  color: #acacac;
-  line-height: 30px;
-}
 .picture-list .col-xs-1,
 .picture-list .col-sm-1,
 .picture-list .col-md-1,
@@ -8141,6 +8128,19 @@ label.switch.switch-danger > input:checked:focus + label {
   font-size: 20px;
   font-weight: normal;
   margin-bottom: 75px;
+}
+.empty {
+  text-align: center;
+  padding: 100px 0;
+}
+.empty > .empty-icon {
+  font-size: 100px;
+  color: #aaa;
+}
+.empty > .empty-text {
+  font-size: 16px;
+  color: #aaa;
+  line-height: 50px;
 }
 .workbench {
   padding: 0;
