@@ -2,7 +2,7 @@
   "name": "bootstrap-theme-attrs",
   "version": "0.0.3",
   "description": "bootstrap-theme-attrs",
-  "web": "dist/bootstrap-theme-attrs.min.css",
+  "main": "lib/index.js",
   "homepage": "https://github.com/attrs/bootstrap-theme-attrs",
   "repository": "attrs/bootstrap-theme-attrs",
   "author": "joje <joje.attrs@gmail.com>",
