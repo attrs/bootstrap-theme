@@ -22,9 +22,9 @@
     "gulp-util": "^3.0.7"
   },
   "files": [
-    "package.json",
     "less",
     "dist",
+    "lib",
     "LICENSE",
     "README.md"
   ]
