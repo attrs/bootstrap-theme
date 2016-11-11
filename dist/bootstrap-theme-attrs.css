@@ -7059,25 +7059,12 @@ table.table.b0 th:last-child {
   border-width: 1px 0;
   border-radius: 0;
 }
-._form-control {
-  display: -moz-inline-stack;
-  display: inline-block;
-  position: relative;
-  padding: 10px;
-  vertical-align: middle;
-  border: 1px solid #dedede;
-  color: #626262;
-  height: 42px;
-  width: 100%;
+.form-control {
+  height: initial;
   outline: none;
-  transition: outline-color 0.5s ease;
 }
-._form-control:focus {
+.form-control:focus {
   outline: none;
-  border-color: #4ea5e0;
-  color: #3C3C3C;
-  border-radius: 0;
-  outline-color: #5d9cec;
 }
 .form-group label {
   font-size: 1em;
@@ -7450,24 +7437,6 @@ a.label.label-border.label-danger:focus {
 }
 .chip > .chip-acc .btn {
   color: #757575;
-}
-.field-label {
-  box-sizing: border-box;
-  line-height: 42px;
-  font-size: 0.9em;
-  font-weight: bold;
-}
-.field {
-  display: inline-block;
-  line-height: 42px;
-}
-.field .radio,
-.field .checkbox {
-  top: -1px;
-  vertical-align: middle;
-}
-.field.select {
-  line-height: 1em;
 }
 .box {
   padding: 10px;
