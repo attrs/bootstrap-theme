@@ -7059,11 +7059,11 @@ table.table.b0 th:last-child {
   border-width: 1px 0;
   border-radius: 0;
 }
-.form-control {
+input.form-control {
   height: initial;
   outline: none;
 }
-.form-control:focus {
+input.form-control:focus {
   outline: none;
 }
 .form-group label {
