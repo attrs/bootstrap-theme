@@ -17,7 +17,7 @@
   border: 1px solid @border-color;
   padding: 5px;
   border-radius: 3px;
-  transition: all .15s;
+  transition: all .25s;
   overflow: hidden;
   
   & > .image {
@@ -26,7 +26,7 @@
     height: 136px;
     background-position: center center;
     background-size: cover;
-    transition: all .35s;
+    transition: all .35s ease-in;
   }
   
   .picture-title {
@@ -77,9 +77,8 @@
 .picture.picture-anim {
   &:hover {
     & > .image {
-      -webkit-filter: grayscale(30%);
-      filter: grayscale(30%);
-      transform: scale(1.2, 1.2);
+      opacity: .8;
+      transform: scale(1.1, 1.1);
     }
   }
 }
