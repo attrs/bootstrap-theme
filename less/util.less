@@ -304,14 +304,29 @@ hr.separator {
   max-height: 1200px !important;
 }
 
-.antialiased {
+.text-aa {
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  font-feature-settings: "kern" 1;
-  font-kerning: normal;
-  letter-spacing: -0.05em;
+  //font-feature-settings: "kern" 1;
+  //font-kerning: normal;
+  //letter-spacing: -0.05em;
+}
+
+.text-noaa {
+  font-smoothing: initial;
+  -webkit-font-smoothing: initial;
+  -moz-osx-font-smoothing: initial;
+  text-rendering: initial;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.bold, .text-bold {
+  font-weight: bold;
 }
 
 .noborder, .b0 {
@@ -372,6 +387,13 @@ hr.separator {
 .text-script {
   font-family: @font-family-script !important;
 }
+.text-italic {
+  font-style: italic !important;
+}
+
+.text-normal {
+  font-style: normal !important;
+}
 
 .text-white {
   color: @white !important;
@@ -426,6 +448,10 @@ hr.separator {
   background-color: @brand-system !important;
 }
 
+.bg-white {
+  background-color: @white;
+}
+
 .bg-default, .bg-contents {
   background-color: @contents-bg;
 }
@@ -433,23 +459,19 @@ hr.separator {
   background-color: @contents-bg-light;
 }
 .bg-lighter {
-  background-color: lighten(@contents-bg-light, 3%);
+  background-color: @contents-bg-lighter;
 }
 .bg-dark {
-  background-color: darken(@contents-bg, 5%);
+  background-color: @contents-bg-dark;
 }
 .bg-darker {
-  background-color: darken(@contents-bg, 10%);
+  background-color: @contents-bg-darker;
 }
 .bg-border {
   background-color: @border-color;
 }
 .bg-text {
   background-color: @text-color;
-}
-
-.bold {
-  font-weight: bold;
 }
 
 .m0 {
