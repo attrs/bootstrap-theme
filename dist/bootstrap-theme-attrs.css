@@ -6823,6 +6823,45 @@ button.close {
 .btn.btn-header.active {
   box-shadow: inset 0 0px 8px rgba(0, 0, 0, 0.2) !important;
 }
+.btn.btn-simple {
+  background-color: transparent;
+  border-width: 0;
+}
+.btn.btn-simple:focus,
+.btn.btn-simple:active,
+.btn.btn-simple:hover {
+  color: inherit;
+  box-shadow: none;
+}
+.btn.btn-circle {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 48px;
+  border-width: 2px;
+}
+.btn.btn-circle:focus,
+.btn.btn-circle:active,
+.btn.btn-circle:hover {
+  box-shadow: none;
+}
+.btn.btn-bg-transparent {
+  background-color: transparent;
+}
+.btn.btn-white {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.9);
+}
+.btn.btn-white:focus,
+.btn.btn-white:active,
+.btn.btn-white:hover {
+  color: inherit;
+  box-shadow: none;
+}
 .media {
   font-weight: normal;
   position: relative;
@@ -8846,7 +8885,7 @@ label.switch.switch-danger > input:checked:focus + label {
   line-height: 40px;
   font-size: 32px;
   font-weight: 400;
-  letter-spacing: -0.025em;
+  letter-spacing: 0.05em;
   word-wrap: break-word;
   font-family: Georgia, "Times New Roman", Times, serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
