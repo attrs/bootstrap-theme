@@ -54,14 +54,14 @@
     content: '';
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     width: 0%;
     border-bottom: 2px solid @brand-default;
     transition: all .35s ease-in;
   }
   
   li a:hover:after {
-    width: 100%;
+    //width: 100%;
   }
   
   li.active > a, li > a:hover, li > a:hover:active, li > a:active, li > a:focus, li > a:visited {
@@ -75,43 +75,43 @@
   }
   
   &.nav-default {
-    li.active a:after {
+    li a:after, li.active a:after {
       border-bottom: 2px solid @brand-default;
     }
   }
   
   &.nav-primary {
-    li.active a:after {
+    li a:after, li.active a:after {
       border-bottom: 2px solid @brand-primary;
     }
   }
   
   &.nav-info {
-    li.active a:after {
+    li a:after, li.active a:after {
       border-bottom: 2px solid @brand-info;
     }
   }
   
   &.nav-success {
-    li.active a:after {
+    li a:after, li.active a:after {
       border-bottom: 2px solid @brand-success;
     }
   }
   
   &.nav-warning {
-    li.active a:after {
+    li a:after, li.active a:after {
       border-bottom: 2px solid @brand-warning;
     }
   }
   
   &.nav-danger {
-    li.active a:after {
+    li a:after, li.active a:after {
       border-bottom: 2px solid @brand-danger;
     }
   }
   
   &.nav-system {
-    li.active a:after {
+    li a:after, li.active a:after {
       border-bottom: 2px solid @brand-system;
     }
   }
