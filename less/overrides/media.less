@@ -59,6 +59,65 @@
     font-style: italic;
     color: @text-color-light;
   }
+  
+  .media-badge {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 12px;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    
+    background-color: @brand-secondary;
+    color: @white;
+    
+    &.media-badge-lg {
+      top: 6px;
+      left: -18px;
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+    }
+    
+    &.media-badge-default {
+      background-color: @brand-default;
+      color: @white;
+    }
+    
+    &.media-badge-primary {
+      background-color: @brand-primary;
+      color: @white;
+    }
+    
+    &.media-badge-info {
+      background-color: @brand-info;
+      color: @white;
+    }
+    
+    &.media-badge-warning {
+      background-color: @brand-warning;
+      color: @white;
+    }
+    
+    &.media-badge-danger {
+      background-color: @brand-danger;
+      color: @white;
+    }
+    
+    &.media-badge-success {
+      background-color: @brand-success;
+      color: @white;
+    }
+    
+    &.media-badge-system {
+      background-color: @brand-system;
+      color: @white;
+    }
+  }
 }
 
 /*.media {
