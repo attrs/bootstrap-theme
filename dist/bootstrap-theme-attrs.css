@@ -6919,6 +6919,14 @@ button.close {
   font-style: italic;
   color: #aaa;
 }
+.media.media-sm .media-left img {
+  max-width: 40px;
+  height: 40px;
+}
+.media.media-lg .media-left img {
+  max-width: 80px;
+  height: 80px;
+}
 .media .media-badge {
   position: absolute;
   padding: 0;
@@ -6967,6 +6975,44 @@ button.close {
 .media .media-badge.media-badge-system {
   background-color: #6E5DA8;
   color: #fff;
+}
+.media.media-profile {
+  font-weight: bold;
+  color: #424242;
+}
+.media.media-profile .media-left {
+  padding-right: 10px;
+}
+.media.media-profile .media-left img {
+  max-width: 60px;
+  height: auto;
+}
+.media.media-profile .media-left img.img-thumbnail {
+  padding: 0;
+  margin: 0;
+  border: 2px solid #929292;
+}
+.media.media-profile .media-links {
+  font-weight: bolder;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  text-decoration: none;
+}
+.media.media-profile a {
+  color: #424242;
+}
+.media.media-profile .media-links a {
+  color: #757575;
+}
+.media.media-dark {
+  color: #fff;
+}
+.media.media-dark a {
+  color: #fff;
+}
+.media.media-dark .media-links a {
+  color: #cccccc;
 }
 /*.media {
   font-weight: bold;
@@ -7242,7 +7288,7 @@ table.table.b0 th:last-child {
 }
 .list-group > .list-group-item-more:hover {
   text-decoration: none;
-  background-color: #eaeaea;
+  background-color: #f5f5f5;
 }
 .list-group.noborder > .list-group-item {
   border-left: none;
@@ -7717,7 +7763,6 @@ ul.list-unordered li {
   position: relative;
   padding: 8px;
   color: #424242;
-  background: #eaeaea;
   font-size: 12px;
   border-radius: 3px;
   border: 1px solid #dedede;
@@ -7753,14 +7798,14 @@ ul.list-unordered li {
 }
 .box {
   padding: 10px;
-  background-color: #eaeaea;
+  background-color: #f5f5f5;
   border-radius: 2px;
 }
 .box.box-light {
   background-color: #ffffff;
 }
 .box.box-border {
-  border: 1px solid #d1d1d1;
+  border: 1px solid #dcdcdc;
 }
 input.checkbox {
   display: none;
@@ -9617,10 +9662,10 @@ hr.separator {
   background-color: #eee !important;
 }
 .bg-light {
-  background-color: #eaeaea !important;
+  background-color: #f5f5f5 !important;
 }
 .bg-lighter {
-  background-color: #facafa !important;
+  background-color: #fcfcfc !important;
 }
 .bg-dark {
   background-color: #343434 !important;
