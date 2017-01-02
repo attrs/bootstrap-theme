@@ -2,7 +2,7 @@
   font-weight: normal;
   position: relative;
   overflow: initial;
-  padding: 14px 0;
+  padding: 0;
   
   &.media-underlined {
     border-bottom: 1px solid @border-color;
@@ -139,17 +139,15 @@
   color: @text-color;
   
   .media-left {
-    padding-right: 10px;
+    padding-right: 15px;
     
     img {
-      max-width: 60px;
+      max-width: 40px;
       height: auto;
-    
-      &.img-thumbnail {
-        padding: 0;
-        margin: 0;
-        border: 2px solid darken(@border-color, 30%);
-      }
+      
+      padding: 0;
+      margin: 0;
+      border: 2px solid darken(@border-color, 30%);
     }
   }
   
@@ -157,7 +155,7 @@
     font-weight: bolder;
     margin-top: 4px;
     margin-bottom: 4px;
-    font-size: 12px;
+    font-size: 0.95em;
     text-decoration: none;
   }
   
@@ -180,6 +178,10 @@
   .media-links a {
     color: darken(@white, 20%);
   }
+}
+
+img.border {
+  border: 2px solid darken(@border-color, 30%);
 }
 
 

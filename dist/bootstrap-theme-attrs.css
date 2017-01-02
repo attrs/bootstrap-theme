@@ -6870,7 +6870,7 @@ button.close {
   font-weight: normal;
   position: relative;
   overflow: initial;
-  padding: 14px 0;
+  padding: 0;
 }
 .media.media-underlined {
   border-bottom: 1px solid #dedede;
@@ -6981,13 +6981,11 @@ button.close {
   color: #424242;
 }
 .media.media-profile .media-left {
-  padding-right: 10px;
+  padding-right: 15px;
 }
 .media.media-profile .media-left img {
-  max-width: 60px;
+  max-width: 40px;
   height: auto;
-}
-.media.media-profile .media-left img.img-thumbnail {
   padding: 0;
   margin: 0;
   border: 2px solid #929292;
@@ -6996,7 +6994,7 @@ button.close {
   font-weight: bolder;
   margin-top: 4px;
   margin-bottom: 4px;
-  font-size: 12px;
+  font-size: 0.95em;
   text-decoration: none;
 }
 .media.media-profile a {
@@ -7013,6 +7011,9 @@ button.close {
 }
 .media.media-dark .media-links a {
   color: #cccccc;
+}
+img.border {
+  border: 2px solid #929292;
 }
 /*.media {
   font-weight: bold;
