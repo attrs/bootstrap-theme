@@ -10211,11 +10211,14 @@ input:focus {
 a {
   color: #424242;
   text-decoration: none;
-  outline: 0;
+  outline: none;
+}
+a:active {
+  outline: none;
 }
 object,
 embed {
-  outline: 0;
+  outline: none;
 }
 input::-moz-focus-inner {
   border: 0;

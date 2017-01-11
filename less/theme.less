@@ -111,11 +111,15 @@ input:focus {
 a {
   color: @text-color;
   text-decoration: none;
-  outline: 0;
+  outline: none;
+}
+
+a:active {
+  outline: none;
 }
 
 object, embed { 
-  outline: 0;
+  outline: none;
 }
 
 input::-moz-focus-inner { 
