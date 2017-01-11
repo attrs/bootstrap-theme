@@ -111,6 +111,15 @@ input:focus {
 a {
   color: @text-color;
   text-decoration: none;
+  outline: 0;
+}
+
+object, embed { 
+  outline: 0;
+}
+
+input::-moz-focus-inner { 
+  border: 0; 
 }
 
 b, strong {
