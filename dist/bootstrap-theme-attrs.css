@@ -9461,6 +9461,33 @@ hr.separator {
 .h1200 {
   height: 1200px !important;
 }
+.mh100 {
+  min-height: 100px !important;
+}
+.mh150 {
+  min-height: 150px !important;
+}
+.mh200 {
+  min-height: 200px !important;
+}
+.mh250 {
+  min-height: 250px !important;
+}
+.mh300 {
+  min-height: 300px !important;
+}
+.mh600 {
+  min-height: 600px !important;
+}
+.mh500 {
+  min-height: 500px !important;
+}
+.mh900 {
+  min-height: 900px !important;
+}
+.mh1200 {
+  min-height: 1200px !important;
+}
 .xh100 {
   max-height: 100px !important;
 }
@@ -10228,10 +10255,9 @@ strong {
   font-weight: 600;
 }
 *[contenteditable] {
-  border: none;
+  outline: none;
 }
 *[contenteditable]:focus,
 *[contenteditable]:hover {
   outline: none;
-  border: none;
 }
