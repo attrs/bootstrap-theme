@@ -6867,10 +6867,10 @@ button.close {
   box-shadow: none;
 }
 .media {
-  font-weight: normal;
   position: relative;
   overflow: initial;
   padding: 0;
+  line-height: 1.1em;
 }
 .media.media-underlined {
   border-bottom: 1px solid #dedede;
@@ -6902,20 +6902,20 @@ button.close {
   height: auto;
 }
 .media .media-heading {
-  font-weight: bold;
-  font-size: 16px;
+  font-size: 1.1em;
 }
 .media .media-heading small {
   font-weight: normal;
-  font-size: 12px;
+  font-size: 0.9em;
   padding-left: 8px;
 }
 .media .media-desc {
   margin-top: 9px;
+  line-height: 1.5em;
 }
 .media .media-tags {
   margin-top: 9px;
-  font-size: 14px;
+  font-size: 1.1em;
   font-style: italic;
   color: #aaa;
 }
@@ -7315,9 +7315,6 @@ input.form-control {
 }
 input.form-control:focus {
   outline: none;
-}
-.form-control {
-  padding: 5px 10px;
 }
 .form-group label {
   font-size: 1em;
@@ -8342,9 +8339,6 @@ label.switch.switch-danger > input:checked:focus + label {
   font-weight: lighter;
   line-height: 80px;
 }
-.gnb > h1 a {
-  color: inherit;
-}
 .gnb > h1 b {
   font-weight: normal;
 }
@@ -8950,6 +8944,12 @@ label.switch.switch-danger > input:checked:focus + label {
 .page-header > .page-header-controls > a:hover {
   color: #303030;
 }
+.bordered-list > * {
+  border-bottom: 1px solid #dedede;
+}
+.bordered-list > *:first-child {
+  border-top: 1px solid #dedede;
+}
 .workbench {
   padding: 0;
   margin: 0;
@@ -9313,9 +9313,11 @@ hr.separator {
 .text-light {
   color: #aaa;
 }
+.text-dark {
+  color: #111;
+}
 .text-wrap {
   text-overflow: ellipsis;
-  overflow: hidden;
   white-space: nowrap;
 }
 .v-middle {
