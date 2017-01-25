@@ -9318,7 +9318,8 @@ hr.separator {
 }
 .text-wrap {
   text-overflow: ellipsis;
-  overflow-x: hidden;
+  overflow: hidden;
+  line-height: 1.2em;
   white-space: nowrap;
 }
 .v-middle {
