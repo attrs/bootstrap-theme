@@ -2954,7 +2954,7 @@ select[multiple].input-lg {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #333;
+  color: #424242;
   text-decoration: none;
 }
 .btn:active,
@@ -2978,27 +2978,27 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #333;
-  background-color: transparent;
-  border-color: #ccc;
+  color: #424242;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-color: #424242;
 }
 .btn-default:focus,
 .btn-default.focus {
-  color: #333;
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #8c8c8c;
+  color: #424242;
+  background-color: rgba(230, 230, 230, 0.35);
+  border-color: #020202;
 }
 .btn-default:hover {
-  color: #333;
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #adadad;
+  color: #424242;
+  background-color: rgba(230, 230, 230, 0.35);
+  border-color: #232323;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333;
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #adadad;
+  color: #424242;
+  background-color: rgba(230, 230, 230, 0.35);
+  border-color: #232323;
 }
 .btn-default:active:hover,
 .btn-default.active:hover,
@@ -3009,9 +3009,9 @@ fieldset[disabled] a.btn {
 .btn-default:active.focus,
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
-  color: #333;
-  background-color: rgba(0, 0, 0, 0);
-  border-color: #8c8c8c;
+  color: #424242;
+  background-color: rgba(212, 212, 212, 0.35);
+  border-color: #020202;
 }
 .btn-default:active,
 .btn-default.active,
@@ -3027,12 +3027,12 @@ fieldset[disabled] .btn-default:focus,
 .btn-default.disabled.focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
-  background-color: transparent;
-  border-color: #ccc;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-color: #424242;
 }
 .btn-default .badge {
-  color: transparent;
-  background-color: #333;
+  color: rgba(255, 255, 255, 0.35);
+  background-color: #424242;
 }
 .btn-primary {
   color: #3498db;
@@ -6866,6 +6866,11 @@ button.close {
   color: inherit;
   box-shadow: none;
 }
+.btn.btn-xl {
+  font-size: 18px;
+  line-height: 1.3333333;
+  padding: 13px 70px;
+}
 .media {
   position: relative;
   overflow: initial;
@@ -6879,7 +6884,7 @@ button.close {
   color: #424242;
 }
 .media a.btn.btn-default {
-  color: #333;
+  color: #424242;
 }
 .media a.btn.btn-primary {
   color: #3498db;
