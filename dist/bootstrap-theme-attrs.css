@@ -6940,6 +6940,21 @@ button.close {
   border-color: #6E5DA8;
   color: #fff;
 }
+.btn-group .btn {
+  padding: 6px 10px;
+}
+.btn-group .btn.btn-xs {
+  padding: 2px 5px;
+}
+.btn-group .btn.btn-sm {
+  padding: 5px 8px;
+}
+.btn-group .btn.btn-lg {
+  padding: 10px 15px;
+}
+.btn-group .btn.btn-xl {
+  padding: 13px 30px;
+}
 .media {
   position: relative;
   overflow: initial;
