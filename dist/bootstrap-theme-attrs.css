@@ -10557,7 +10557,6 @@ body {
   color: #fff;
 }
 input:focus {
-  outline: none;
   box-shadow: none;
 }
 a {
@@ -10572,9 +10571,6 @@ object,
 embed {
   outline: none;
 }
-input::-moz-focus-inner {
-  border: 0;
-}
 b,
 strong {
   font-weight: 600;
@@ -10585,4 +10581,10 @@ strong {
 *[contenteditable]:focus,
 *[contenteditable]:hover {
   outline: none;
+}
+:focus {
+  outline: none;
+}
+::-moz-focus-inner {
+  border: 0;
 }
