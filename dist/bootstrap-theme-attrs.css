@@ -10544,18 +10544,6 @@ hr.separator {
 [tooltip][flow^="right"]:hover::after {
   animation: tooltips-horz 300ms ease-out forwards;
 }
-body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  color: #424242;
-  padding: 0;
-  margin: 0;
-  font-weight: 400;
-}
-*::selection {
-  background-color: #343434;
-  color: #fff;
-}
 input:focus {
   box-shadow: none;
 }
