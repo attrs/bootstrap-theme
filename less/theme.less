@@ -73,6 +73,7 @@
 @import "@{theme}/components/picture";
 @import "@{theme}/components/tagbox";
 @import "@{theme}/components/cover";
+@import "@{theme}/components/headline";
 @import "@{theme}/components/footer";
 @import "@{theme}/components/gnb";
 @import "@{theme}/components/section";
@@ -83,7 +84,6 @@
 @import "@{theme}/components/sidebar";
 @import "@{theme}/components/statusbar";
 @import "@{theme}/components/topbtn";
-@import "@{theme}/components/headline";
 @import "@{theme}/components/page-header";
 @import "@{theme}/components/bordered-list";
 @import "@{theme}/components/topbar";
@@ -92,41 +92,4 @@
 //@import "@{theme}/flexbox";
 @import "@{theme}/util";
 @import "@{theme}/tooltip";
-
-input:focus {
-  box-shadow: none;
-}
-
-a {
-  color: @text-color;
-  text-decoration: none;
-  outline: none;
-}
-
-a:active {
-  outline: none;
-}
-
-object, embed { 
-  outline: none;
-}
-
-b, strong {
-  font-weight: 600;
-}
-
-*[contenteditable] {
-  outline: none;
-  
-  &:focus, &:hover {
-    outline: none;
-  }
-}
-
-:focus {
-  outline: none;
-}
-
-::-moz-focus-inner {
-  border: 0;
-}
+@import "@{theme}/base";
