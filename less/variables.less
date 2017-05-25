@@ -28,17 +28,25 @@
 @gray-lighter:          lighten(#000, 93.5%); // #eee
 
 // default colors
-@brand-default:         #f0f0f0;
+@brand-default:         #ccc;
 @brand-primary:         #3498db;
-@brand-success:         #70AB4F;
-@brand-info:            #3bafda;
-@brand-warning:         #f6bb42;
-@brand-danger:          #e9573f;
-@brand-alert:           #967adc;
-@brand-system:          #6E5DA8;
+@brand-info:            #73CFF8;
+@brand-success:         #80E22F;
+@brand-warning:         #F6BB42;
+@brand-danger:          #E9573F;
+@brand-system:          #8085b2;
 @brand-light:           #fafafa;
 @brand-dark:            #3b3f4f;
+@brand-alert:           #967adc;
 @brand-secondary:       @brand-danger;
+
+//@brand-success:         #70AB4F;
+//@brand-info:            #3bafda;
+//@brand-warning:         #f6bb42;
+//@brand-danger:          #e9573f;
+//@brand-alert:           #967adc;
+//@brand-system:          #8085b2;
+
 
 //== Scaffolding
 //
@@ -178,7 +186,7 @@
 
 @btn-default-color:              @text-color;
 @btn-default-bg:                 transparent;
-@btn-default-border:             #ccc;
+@btn-default-border:             @brand-default;
 
 @btn-primary-color:              @brand-primary;
 @btn-primary-bg:                 transparent;
@@ -199,6 +207,10 @@
 @btn-danger-color:               @brand-danger;
 @btn-danger-bg:                  transparent;
 @btn-danger-border:              @brand-danger;
+
+@btn-system-color:               @brand-system;
+@btn-system-bg:                  transparent;
+@btn-system-border:              @brand-system;
 
 @btn-link-disabled-color:        @gray-light;
 

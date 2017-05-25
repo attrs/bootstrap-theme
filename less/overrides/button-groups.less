@@ -1,0 +1,112 @@
+.btn-group {
+  & .btn {
+    &.active {
+      box-shadow: none;
+    }
+  }
+}
+
+.btn-group.btn-group-justified {
+  & .btn {
+    border-right-width: 0;
+  
+    &:last-child {
+      border-right-width: 1px;
+    }
+  }
+}
+
+.btn {
+  &.btn-default:active, &.btn-default:hover, &.btn-default:focus {
+    color: @btn-default-color;
+    background-color: @btn-default-bg;
+    border-color: @btn-default-border;
+  }
+  
+  &.btn-primary:active, &.btn-primary:hover, &.btn-primary:focus {
+    color: @btn-primary-color;
+    background-color: @btn-primary-bg;
+    border-color: @btn-primary-border;
+  }
+  
+  &.btn-success:active, &.btn-success:hover, &.btn-success:focus {
+    color: @btn-success-color;
+    background-color: @btn-success-bg;
+    border-color: @btn-success-border;
+  }
+  
+  &.btn-info:active, &.btn-info:hover, &.btn-info:focus {
+    color: @btn-info-color;
+    background-color: @btn-info-bg;
+    border-color: @btn-info-border;
+  }
+  
+  &.btn-warning:active, &.btn-warning:hover, &.btn-warning:focus {
+    color: @btn-warning-color;
+    background-color: @btn-warning-bg;
+    border-color: @btn-warning-border;
+  }
+  
+  &.btn-danger:active, &.btn-danger:hover, &.btn-danger:focus {
+    color: @btn-danger-color;
+    background-color: @btn-danger-bg;
+    border-color: @btn-danger-border;
+  }
+  
+  &.btn-system:active, &.btn-system:hover, &.btn-system:focus {
+    color: @btn-system-color;
+    background-color: @btn-system-bg;
+    border-color: @btn-system-border;
+  }
+}
+
+
+.btn-group.btn-group-ios {
+  & .btn {
+    border-radius: 4px;
+    font-size: 13px;
+    vertical-align: baseline;
+    
+    &.btn-default.active {
+      color: @white;
+      background-color: @btn-default-border;
+      border-color: @btn-default-border;
+    }
+    
+    &.btn-primary.active {
+      color: @white;
+      background-color: @btn-primary-border;
+      border-color: @btn-primary-border;
+    }
+    
+    &.btn-success.active {
+      color: @white;
+      background-color: @btn-success-border;
+      border-color: @btn-success-border;
+    }
+    
+    &.btn-info.active {
+      color: @white;
+      background-color: @btn-info-border;
+      border-color: @btn-info-border;
+    }
+    
+    &.btn-warning.active {
+      color: @white;
+      background-color: @btn-warning-border;
+      border-color: @btn-warning-border;
+    }
+    
+    &.btn-danger.active {
+      color: @white;
+      background-color: @btn-danger-border;
+      border-color: @btn-danger-border;
+    }
+    
+    &.btn-system.active {
+      color: @white;
+      background-color: @btn-system-border;
+      border-color: @btn-system-border;
+    }
+  }
+}
