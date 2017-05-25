@@ -8283,7 +8283,6 @@ label.switch.switch-danger > input:checked:focus + label {
 }
 .cover {
   position: relative;
-  height: 600px;
   transition: all .25;
 }
 .cover .cover-shadow {
@@ -9095,6 +9094,10 @@ header.topbar .form-group > input[type="text"]:focus {
   border-color: #f0f0f0;
   outline: none;
   box-shadow: none;
+}
+.ratio-1by1 {
+  position: relative;
+  padding-top: 100%;
 }
 .ratio-3by2 {
   position: relative;
