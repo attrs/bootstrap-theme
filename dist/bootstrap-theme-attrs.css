@@ -2477,7 +2477,7 @@ output {
   color: #555555;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 1px solid #dedede;
   border-radius: 0px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -3820,7 +3820,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #555555;
   text-align: center;
   background-color: #eeeeee;
-  border: 1px solid #ccc;
+  border: 1px solid #dedede;
   border-radius: 0px;
 }
 .input-group-addon.input-sm {
@@ -7476,12 +7476,14 @@ table.table.b0 th:last-child {
 .list-group.list-group-borderless .list-group-item {
   border: 0;
 }
-input.form-control {
+.form-control {
   height: initial;
   outline: none;
+  box-shadow: none;
 }
-input.form-control:focus {
+.form-control:focus {
   outline: none;
+  box-shadow: none;
 }
 .form-group label {
   font-size: 1em;
@@ -9194,6 +9196,10 @@ header.topbar .form-group > input[type="text"]:focus {
 .ratio-3by2 {
   position: relative;
   padding-top: 66.66%;
+}
+.img-gray {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 .ratio-4by3 {
   position: relative;
