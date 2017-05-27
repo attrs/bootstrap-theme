@@ -16,7 +16,7 @@
   
   .panel-heading {
     position: relative;
-    min-height: 52px;
+    min-height: 50px;
     line-height: 50px;
     color: @panel-header-text-color;
     background: @panel-header-color;
@@ -26,9 +26,10 @@
     font-size: 1.1em;
     padding: 0 8px;
     
-    .panel-icon {
-      color: lighten(@panel-header-text-color, 20%);
-      padding-left: 7px;
+    i, .icon {
+      color: lighten(@panel-header-text-color, 30%);
+      min-width: 18px;
+      padding-right: 5px;
     }
     
     .panel-title {

@@ -28,7 +28,8 @@
 @gray-lighter:          lighten(#000, 93.5%); // #eee
 
 // default colors
-@brand-default:         #ccc;
+@brand-default:         darken(@border-color, 15%);
+//@brand-default:         #817F88;
 @brand-primary:         #3498db;
 
 @brand-success:         #70AB4F;
@@ -229,7 +230,7 @@
 //** Text color for `<input>`s
 @input-color:                    @gray;
 //** `<input>` border color
-@input-border:                   @border-color;
+@input-border:                   darken(@border-color, 15%);
 
 // TODO: Rename `@input-border-radius` to `@input-border-radius-base` in v4
 //** Default `.form-control` border radius
