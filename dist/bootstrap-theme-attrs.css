@@ -6844,7 +6844,7 @@ button.close {
   padding: 0;
   margin: 0;
   font-size: 20px;
-  line-height: 48px;
+  line-height: 52px;
   border-width: 2px;
 }
 .btn.btn-circle:focus,
@@ -8242,9 +8242,10 @@ label.switch.switch-danger > input:checked:focus + label {
   overflow: hidden;
 }
 .picture > .image {
+  position: relative;
+  padding-top: 100%;
   border: 1px solid #dedede;
   width: 100%;
-  height: 136px;
   background-position: center center;
   background-size: cover;
   transition: all 0.35s ease-in;
@@ -8551,9 +8552,6 @@ label.switch.switch-danger > input:checked:focus + label {
   letter-spacing: 0.05em;
   font-weight: lighter;
   line-height: 80px;
-}
-.gnb > h1 b {
-  font-weight: normal;
 }
 .gnb.overlay {
   position: absolute;
@@ -9195,24 +9193,24 @@ header.topbar .form-group > input[type="text"]:focus {
   box-shadow: none;
 }
 .ratio-1by1 {
-  position: relative;
-  padding-top: 100%;
+  position: relative !important;
+  padding-top: 100% !important;
 }
 .ratio-3by2 {
-  position: relative;
-  padding-top: 66.66%;
+  position: relative !important;
+  padding-top: 66.66% !important;
+}
+.ratio-4by3 {
+  position: relative !important;
+  padding-top: 75% !important;
+}
+.ratio-16by9 {
+  position: relative !important;
+  padding-top: 56.25% !important;
 }
 .img-gray {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-}
-.ratio-4by3 {
-  position: relative;
-  padding-top: 75%;
-}
-.ratio-16by9 {
-  position: relative;
-  padding-top: 56.25%;
 }
 a.dotted {
   display: inline-block;
@@ -10231,10 +10229,6 @@ a:active {
 object,
 embed {
   outline: none;
-}
-b,
-strong {
-  font-weight: 600;
 }
 *[contenteditable] {
   outline: none;
