@@ -7485,6 +7485,8 @@ table.table.b0 th:last-child {
 .form-control {
   outline: none;
   box-shadow: none;
+  -webkit-box-shadow: none;
+  -webkit-appearance: none;
 }
 .form-control:focus {
   outline: none;
