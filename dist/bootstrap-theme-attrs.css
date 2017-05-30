@@ -8550,8 +8550,8 @@ label.switch.switch-danger > input:checked:focus + label {
   margin: 0;
   font-size: 17px;
   letter-spacing: 0.05em;
-  font-weight: lighter;
   line-height: 80px;
+  color: #5c5c5c;
 }
 .gnb.overlay {
   position: absolute;
@@ -8607,7 +8607,6 @@ label.switch.switch-danger > input:checked:focus + label {
   color: #fff;
 }
 .section .section-title {
-  font-weight: 100;
   display: block;
   text-align: center;
   letter-spacing: 1px;
@@ -8616,7 +8615,7 @@ label.switch.switch-danger > input:checked:focus + label {
   padding-top: 30px;
   padding-bottom: 80px;
 }
-.section h3.section-title {
+.section -h3.section-title {
   font-size: 18px;
   padding: 48px 0;
 }
