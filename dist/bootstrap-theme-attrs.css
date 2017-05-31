@@ -7946,6 +7946,10 @@ ul.list-unordered li {
 .input-group > .form-control:last-child {
   border-right-width: 1px;
 }
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .btn-group {
+  margin-right: -2px;
+}
 .chip {
   position: relative;
   padding: 8px;
