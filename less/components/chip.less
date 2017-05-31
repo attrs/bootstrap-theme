@@ -3,7 +3,7 @@
   padding: 8px;
   color: @text-color;
   font-size: 12px;
-  border-radius: 3px;
+  border-radius: 2px;
   border: 1px solid @border-color;
   
   &:before, &:after {
@@ -38,5 +38,33 @@
     .btn {
       color: lighten(@text-color, 20%);
     }
+  }
+  
+  &.chip-default {
+    border-left: 2px solid @brand-default;
+  }
+  
+  &.chip-primary {
+    border-left: 2px solid @brand-primary;
+  }
+  
+  &.chip-info {
+    border-left: 2px solid @brand-info;
+  }
+  
+  &.chip-success {
+    border-left: 2px solid @brand-success;
+  }
+  
+  &.chip-warning {
+    border-left: 2px solid @brand-warning;
+  }
+  
+  &.chip-danger {
+    border-left: 2px solid @brand-danger;
+  }
+  
+  &.chip-system {
+    border-left: 2px solid @brand-danger;
   }
 }
