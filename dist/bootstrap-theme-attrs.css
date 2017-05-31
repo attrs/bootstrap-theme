@@ -7955,7 +7955,7 @@ ul.list-unordered li {
   padding: 8px;
   color: #424242;
   font-size: 12px;
-  border-radius: 3px;
+  border-radius: 2px;
   border: 1px solid #dedede;
 }
 .chip:before,
@@ -7986,6 +7986,27 @@ ul.list-unordered li {
 }
 .chip > .chip-acc .btn {
   color: #757575;
+}
+.chip.chip-default {
+  border-left: 2px solid #c5c5c5;
+}
+.chip.chip-primary {
+  border-left: 2px solid #3498db;
+}
+.chip.chip-info {
+  border-left: 2px solid #3bafda;
+}
+.chip.chip-success {
+  border-left: 2px solid #70AB4F;
+}
+.chip.chip-warning {
+  border-left: 2px solid #f6bb42;
+}
+.chip.chip-danger {
+  border-left: 2px solid #e9573f;
+}
+.chip.chip-system {
+  border-left: 2px solid #e9573f;
 }
 .box {
   padding: 10px;
