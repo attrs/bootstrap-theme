@@ -7540,6 +7540,9 @@ table.table.b0 th:last-child {
 .label {
   vertical-align: middle;
 }
+.label.label-muted {
+  opacity: 0.7;
+}
 .label.label-border {
   display: inline-block;
   border: 1px solid #777777;
@@ -8007,6 +8010,10 @@ ul.list-unordered li {
 }
 .chip.chip-system {
   border-left: 3px solid #e9573f;
+}
+.chip.chip-muted {
+  color: #777777;
+  opacity: 0.7;
 }
 .box {
   padding: 10px;
