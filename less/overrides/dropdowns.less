@@ -95,3 +95,42 @@
   opacity: 1;
   transform: translate(0,0);
 }
+
+.caret {
+  display: inline-block;
+  position: relative;
+  width: 10px;
+  height: 15px;
+  border-top: none;
+  border: 0;
+  
+  &:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    /*background-image: @arrow-image;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 12px;*/
+    font-family: "FontAwesome"; //"Glyphicons Halflings";
+    font-size: 13px;
+    line-height: 13px;
+    content: "\f107" //"\e259";
+  }
+}
+
+.dropup .caret, .navbar-fixed-bottom .dropdown .caret {
+  display: inline-block;
+  position: relative;
+  width: 10px;
+  height: 15px;
+  border-top: none;
+  border-bottom: none;
+  border: 0;
+  
+  &:after {
+    transform: rotate(180deg);
+  }
+}
