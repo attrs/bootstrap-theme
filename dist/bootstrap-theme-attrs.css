@@ -7983,7 +7983,8 @@ ul.list-unordered li {
 .input-group > .form-control {
   border-right-width: 0;
 }
-.input-group > .form-control:last-child {
+.input-group > .form-control:last-child,
+.input-group > .form-control:focus {
   border-right-width: 1px;
 }
 .input-group-btn:first-child > .btn,
