@@ -8320,7 +8320,7 @@ label.switch.switch-danger > input:checked:focus + label {
   width: 100%;
   background-position: center center;
   background-size: cover;
-  transition: opacity, transform 0.35s ease-in;
+  transition: opacity 0.35s ease-in, transform 0.35s ease-in;
 }
 .picture .picture-title {
   position: relative;
@@ -8757,6 +8757,10 @@ label.switch.switch-danger > input:checked:focus + label {
   padding-left: 6px;
   padding-right: 6px;
 }
+ul.mediabox-list,
+ol.mediabox-list {
+  list-style: none;
+}
 .mediabox {
   position: relative;
   display: block;
@@ -8775,7 +8779,7 @@ label.switch.switch-danger > input:checked:focus + label {
   width: 100%;
   background-position: center center;
   background-size: cover;
-  transition: all .35s;
+  transition: opacity .35s;
 }
 .mediabox .mediabox-title {
   position: relative;
