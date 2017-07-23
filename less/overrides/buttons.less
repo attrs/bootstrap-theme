@@ -114,10 +114,90 @@
 }
 */
 
+.btn:active, .btn:hover, .btn:active:hover, .btn:focus {
+  &.btn-default {
+    border-color: @brand-primary;
+  }
+  
+  &.btn-primary {
+    border-color: @brand-primary;
+  }
+  
+  &.btn-info {
+    border-color: @brand-info;
+  }
+  
+  &.btn-success {
+    border-color: @brand-success;
+  }
+  
+  &.btn-warning {
+    border-color: @brand-warning;
+  }
+  
+  &.btn-danger {
+    border-color: @brand-danger;
+  }
+  
+  &.btn-system {
+    border-color: @brand-system;
+  }
+}
+
+.btn {
+  transition: background-color .35s, color .35s;
+}
+
+.btn:hover:not([disabled]), .btn:active:not([disabled]), .btn:hover:active:not([disabled]) {
+  &.btn-default {
+    background-color: @gray-light;
+    color: @white;
+    border-color: @gray-light;
+  }
+  
+  &.btn-primary {
+    background-color: @brand-primary;
+    border-color: @brand-primary;
+    color: @white;
+  }
+  
+  &.btn-info {
+    background-color: @brand-info;
+    border-color: @brand-info;
+    color: @white;
+  }
+  
+  &.btn-success {
+    background-color: @brand-success;
+    border-color: @brand-success;
+    color: @white;
+  }
+  
+  &.btn-warning {
+    background-color: @brand-warning;
+    border-color: @brand-warning;
+    color: @white;
+  }
+  
+  &.btn-danger {
+    background-color: @brand-danger;
+    border-color: @brand-danger;
+    color: @white;
+  }
+  
+  &.btn-system {
+    background-color: @brand-system;
+    border-color: @brand-system;
+    color: @white;
+  }
+}
+
 .btn.btn-fill {
-  background-color: @gray-light;
-  color: @white;
-  border-color: @gray-light;
+  &.btn-default {
+    background-color: @gray-light;
+    color: @white;
+    border-color: @gray-light;
+  }
   
   &.btn-primary {
     background-color: @brand-primary;
