@@ -8263,12 +8263,39 @@ input.checkbox.checkbox-system + label:before {
   font-size: 15px;
 }
 .checkbox-agreement a {
-  float: right;
   color: #3498db;
   margin-left: 8px;
   font-size: 1em;
   font-weight: normal;
   padding: 5px 0;
+}
+.checkbox-agreement.checkbox-default > input[type="checkbox"] + label:before {
+  border-color: #c5c5c5;
+  color: #c5c5c5;
+}
+.checkbox-agreement.checkbox-primary > input[type="checkbox"] + label:before {
+  border-color: #3498db;
+  color: #3498db;
+}
+.checkbox-agreement.checkbox-info > input[type="checkbox"] + label:before {
+  border-color: #3bafda;
+  color: #3bafda;
+}
+.checkbox-agreement.checkbox-success > input[type="checkbox"] + label:before {
+  border-color: #70BC1F;
+  color: #70BC1F;
+}
+.checkbox-agreement.checkbox-warning > input[type="checkbox"] + label:before {
+  border-color: #f6bb42;
+  color: #f6bb42;
+}
+.checkbox-agreement.checkbox-danger > input[type="checkbox"] + label:before {
+  border-color: #E74D2B;
+  color: #E74D2B;
+}
+.checkbox-agreement.checkbox-system > input[type="checkbox"] + label:before {
+  border-color: #9F7BE1;
+  color: #9F7BE1;
 }
 label.switch {
   cursor: pointer;
@@ -8860,16 +8887,31 @@ label.switch.switch-danger > input:checked:focus + label {
 }
 .empty {
   text-align: center;
-  padding: 100px 0;
+  padding: 200px 0;
 }
-.empty > .empty-icon {
-  font-size: 100px;
-  color: #666;
+.empty .empty-icon {
+  font-size: 120px;
+  color: #444;
 }
-.empty > .empty-text {
-  font-size: 16px;
-  color: #666;
-  line-height: 50px;
+.empty .empty-icon > i:before {
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+  background: -webkit-linear-gradient(rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0.9));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.empty .empty-text {
+  font-size: 1.25em;
+  font-weight: normal;
+  color: rgba(68, 68, 68, 0.8);
+  line-height: 60px;
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+}
+.empty .empty-desc {
+  margin-top: -10px;
+  font-size: 0.95em;
+  font-weight: normal;
+  color: rgba(68, 68, 68, 0.7);
+  text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
 }
 .mediabox-list .col-xs-1,
 .mediabox-list .col-sm-1,
