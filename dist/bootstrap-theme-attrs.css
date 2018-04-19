@@ -7170,6 +7170,7 @@ button.close {
 }
 .media .media-heading {
   font-size: 1.1em;
+  line-height: 1.2em;
 }
 .media .media-heading small {
   font-weight: normal;
@@ -7413,6 +7414,7 @@ button.close {
   color: #6a6a6a;
   font-size: 1em;
   font-weight: 400;
+  float: left;
 }
 .panel .panel-heading .panel-controls {
   display: block;
@@ -8690,7 +8692,7 @@ label.switch.switch-danger > input:checked:focus + label {
 .cover .cover-contents .cover-middle {
   display: inline-block;
   vertical-align: middle;
-  width: 100%;
+  width: 99.9%;
 }
 .headline {
   display: block;
@@ -9604,7 +9606,7 @@ hr.separator {
   width: 100% !important;
 }
 .fit {
-  position: absolute;
+  position: absolute !important;
   top: 0;
   right: 0;
   bottom: 0;
