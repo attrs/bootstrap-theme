@@ -1,6 +1,7 @@
 .page-header {
-  background-color: darken(@main-bg, 2%);
+  background-color: darken(@contents-bg, 2%);
   border-bottom: 1px solid @border-color;
+  box-shadow: inset 1px -6px 10px -6px @border-color;
   padding: 25px 23px;
   margin: 0;
   
@@ -74,4 +75,16 @@
       }
     }
   }
+}
+
+.page-body {
+  padding: 15px;
+  background-color: @body-bg;
+}
+
+.page-footer {
+  background-color: lighten(@contents-bg, 5%);
+  border-top: 1px solid @border-color;
+  padding: 15px;
+  box-shadow: inset 1px 6px 6px -6px @border-color;
 }
