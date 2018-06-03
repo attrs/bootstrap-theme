@@ -9073,6 +9073,7 @@ ol.mediabox-list {
 }
 .cols .col {
   display: table-cell;
+  vertical-align: top;
 }
 .cols.cols-fixed {
   table-layout: fixed;
