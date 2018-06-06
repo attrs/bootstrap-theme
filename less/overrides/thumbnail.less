@@ -1,0 +1,37 @@
+.thumbnail.thumbnail-media {
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 @contents-bg-light;
+  margin-bottom: 25px;
+  padding: 0;
+  overflow: hidden;
+  
+  &:hover, a:hover {
+    text-decoration: none;
+    
+    .image {
+      opacity: 0.7;
+    }
+    
+    .caption {
+      color: fade(@text-color, 60%);
+    }
+  }
+  
+  img, .image {
+    transition: opacity .35s ease;
+    //border-bottom: 1px solid @border-color;
+  }
+  
+  .caption {
+    margin: 10px 0;
+    margin-top: 12px;
+    transition: all .35s;
+    text-align: center;
+    font-weight: normal;
+  }
+  
+  .thumbnail-btns {
+    margin: 6px 0;
+    margin-bottom: 12px;
+  }
+}
