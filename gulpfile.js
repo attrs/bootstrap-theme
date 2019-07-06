@@ -12,6 +12,8 @@ const cleanCSS = require('gulp-clean-css');
 const sourcemaps = require('gulp-sourcemaps');
 const pkg = require('./package.json');
 
+const basename = 'bootstrap-theme-attrs';
+
 gulp.task('build.clean', () => {
   return gulp.src('dist', { read: false })
     .pipe(rimraf());
@@ -33,7 +35,7 @@ gulp.task('build', ['build.clean'], () => {
       ''
     ].join('\n'), { pkg: pkg }))
     .pipe(rename({
-      basename: pkg.name
+      basename: basename
     }))
     .pipe(gulp.dest('dist'))
     .pipe(cleanCSS({compatibility: 'ie8'}))
