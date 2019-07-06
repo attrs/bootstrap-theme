@@ -1,1 +1,2 @@
-# bootstrap-theme-attrs
+# @attrs/bootstrap-theme
+

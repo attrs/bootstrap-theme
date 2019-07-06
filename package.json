@@ -1,9 +1,9 @@
 {
-  "name": "bootstrap-theme-attrs",
+  "name": "@attrs/bootstrap-theme",
   "version": "0.3.27",
-  "description": "bootstrap-theme-attrs",
+  "description": "attrs bootstrap 3 theme",
   "main": "lib/index.js",
-  "homepage": "https://github.com/attrs/bootstrap-theme-attrs",
+  "homepage": "https://github.com/attrs/bootstrap-theme",
   "repository": "attrs/bootstrap-theme-attrs",
   "author": "joje <joje.attrs@gmail.com>",
   "license": "MIT",
